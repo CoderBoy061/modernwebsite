@@ -1,0 +1,41 @@
+.nav_logo > img {
+  height: 29px;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1em 0.6em;
+  position: static;
+  z-index: -1;
+  background-color: rgb(255, 255, 255);
+}
+.nav_links {
+  display: flex;
+  gap: 3vw;
+  margin-left: 10vw;
+}
+.links{
+    color: rgb(128, 122, 115);
+}
+.buy{
+    width: 12vw;
+    padding: 1em 0em;
+    border-radius: 1.5em;
+    border: none;
+    background-color: black;
+    color: white;
+}
+.buy_now{
+    margin-left: -3vw;
+}
+.links:hover{
+    color: black;
+    border-bottom: 1.5px solid black;
+    margin-bottom: 0.2vh;
+}
+.buy:hover{
+  transform: scale(1.01);
+  box-shadow: 10px 10px 10px  rgba(174, 145, 243, 0.5);
+  cursor: pointer;
+}

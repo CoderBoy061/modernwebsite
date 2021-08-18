@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Salsa&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Salsa&family=Space+Grotesk:wght@300&display=swap");
+.first_image > img {
+  height: 600px;
+  width: 700px;
+  margin-top: -10vh;
+  border-radius: 1em;
+  margin-left: -0.1vw;
+}
+.first_section {
+  display: flex;
+  align-items: center;
+  padding: 1em 1em;
+  margin-top: 4vh;
+}
+.first_desc > p {
+  text-align: center;
+  font-size: 20px;
+
+  width: 35vw;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+  font-family: "Space Grotesk", sans-serif;
+}
+.first_desc > h1 {
+  color: rgb(159, 212, 78);
+  font-size: 3.1rem;
+  width: 30vw;
+  text-align: center;
+  font-family: "Salsa", cursive;
+}
+.heart {
+  color: rgb(229, 219, 207);
+}
+.first_desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  width: 80vw;
+  height: 85vh;
+  padding: 2em 1em;
+  border-radius: 1em;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.12);
+}
+.buttons {
+  display: flex;
+  gap: 1vw;
+}
+#button {
+  width: 15vw;
+  padding: 1em 0.6em;
+  border-radius: 1.5em;
+  border: none;
+  outline: none;
+  background-color: rgb(159, 212, 78);
+  color: white;
+}
+#button2 {
+  width: 15vw;
+  padding: 1em 0.6em;
+  border-radius: 1.5em;
+  border: none;
+  outline: none;
+  background-color: rgb(229, 219, 207);
+}
+.description{
+    display: flex;
+    gap: 5vw;
+    margin-top: 10vh;
+}
+.desc_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.6em 0.6em;
+    width: 10vw;
+    border-radius: 1em;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(247, 4, 4, 0.12);;
+}
+.desc_div:hover{
+  transform: scale(1.01);
+  box-shadow: 10px 10px 10px  rgba(174, 145, 243, 0.5);
+  cursor: pointer;
+}
+#button:hover{
+  transform: scale(1.01);
+  box-shadow: 10px 10px 10px  rgba(174, 145, 243, 0.5);
+  cursor: pointer;
+}
+#button2:hover{
+  transform: scale(1.01);
+  box-shadow: 10px 10px 10px  rgba(174, 145, 243, 0.5);
+  cursor: pointer;
+}

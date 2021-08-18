@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&family=Salsa&family=Space+Grotesk:wght@300&display=swap");
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading > p {
+  font-size: 18px;
+  color: rgb(229, 219, 207);
+  margin-top: 13vh;
+}
+.heading > h1 {
+  color: #807a73;
+  font-size: 3.5rem;
+  width: 40vw;
+  text-align: center;
+  margin-top: 1.5vh;
+}
+.heading_span {
+  color: rgb(159, 212, 78);
+}
+.data > img {
+  height: 650px;
+}
+.section_image {
+  display: flex;
+  align-items: center;
+  gap: 4vw;
+  margin-top: 5vh;
+}
+.para {
+  width: 40vw;
+  margin-left: 10vw;
+}
+.para1 {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 18px;
+  line-height: 35px;
+}
+.para2 {
+  font-family: 24px;
+  margin-top: 2vh;
+  line-height: 30px;
+  line-break: loose;
+  color: rgb(128, 122, 115);
+}
+.more {
+  width: 10vw;
+  padding: 1em 0.6em;
+  margin-top: 3.5vh;
+  border-radius: 2em;
+  border: none;
+  background-color: rgb(159, 212, 78);
+  color: white;
+  font-size: 16px;
+}
+.more:hover {
+  background-color: #75914b;
+}
+.service {
+  display: flex;
+  gap: 2vw;
+  margin-top: 10vh;
+  margin-left: 10vw;
+}
+.service_section > p {
+  width: 10vw;
+  font-size: 18px;
+  font-family: cursive;
+}
+.service_section {
+  background-color: white;
+  width: 15vw;
+  padding: 2em 1.5em;
+  border-radius: 0.6em;
+  box-shadow: 10px 10px 10px 10px rgba(173, 216, 230, 0.5);
+}
+.service_section:hover {
+  transform: scale(1.04);
+  box-shadow: 10px 10px 10px 10px rgba(174, 145, 243, 0.5);
+  cursor: pointer;
+}
